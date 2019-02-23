@@ -108,7 +108,7 @@ var EscolhaPage = /** @class */ (function () {
         httpData.append('tela', this.dados.controls.tela.value);
         httpData.append('bateria', this.dados.controls.bateria.value);
         httpData.append('armazenamento', this.dados.controls.armazenamento.value);
-        this.http.post('http://127.0.0.1:5000/v2', httpData).subscribe(function (data) {
+        this.http.post('https://mateusbarros.pythonanywhere.com/v2', httpData).subscribe(function (data) {
             if (data['resultado']) {
                 _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__melhorcelular_melhorcelular__["a" /* MelhorCelularPage */], { resultado: data['resultado'] }, { animate: true, animation: 'pingu', direction: 'forward' });
             }
