@@ -301,7 +301,7 @@ input:-webkit-autofill:focus {
 /*-- 5. MainMenu-Area --*/
 
 .mainmenu-area {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -429,7 +429,7 @@ input:-webkit-autofill:focus {
 .home-area {
     width: 100%;
     background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
-    padding-top: 26vh;
+    padding-top: 18vh;
     color: #ffffff;
     margin-bottom: 100px;
 }
