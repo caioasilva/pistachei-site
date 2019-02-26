@@ -153,9 +153,9 @@
     .mainmenu-area {
         padding: 15px 0;
     }
-    /*.mainmenu-area:before {
+    .mainmenu-area:before {
         opacity: 0.9;
-    }*/
+    }
     .mainmenu-area .navbar-toggle {
         border: 1px solid #ffffff;
         border-radius: 1px;
@@ -183,7 +183,7 @@
     }
     /*-- Home-Area --*/
     .home-area {
-        padding-top: 24vh;
+        padding-top: 120px;
         padding-bottom: 100px;
         margin-bottom: 0;
     }
